@@ -5,6 +5,8 @@ import {motion} from 'framer-motion'
 //variants
 import {fadeIn} from '../Variants'
 
+import { GrInstagram } from "react-icons/gr";
+
 const photoss = [
   {
     pic: images.BooksAd
@@ -61,7 +63,7 @@ function Updates() {
          viewport={{once: false, amount:0.4}}
           className='flex justify-center space-x-2 '>
    <a href="https://www.instagram.com/techido.in/"><button className="font-serif font-semibold text-white bg-sky-800 cursor-pointer rounded text-sm border-none h-9 w-24 hover:bg-techido-blue">See More..</button></a>
-   <a href="https://www.instagram.com/techido.in/"><button className="font-serif font-semibold text-white bg-orange-800 cursor-pointer rounded text-sm border-none h-9 w-48 hover:bg-orange-900">Follow us on Instagram</button></a>
+   <a href="https://www.instagram.com/techido.in/"><button className="font-serif font-semibold text-white bg-orange-800 cursor-pointer rounded text-sm border-none h-9 w-48 hover:bg-orange-900"><GrInstagram  size={12} />     Follow us on Instagram</button></a>
  </motion.div>
  </center>
  </section>
